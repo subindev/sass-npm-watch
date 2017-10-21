@@ -1,0 +1,18 @@
+{
+  "name": "doc-pro",
+  "version": "1.0.0",
+  "description": "simple doc managment",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "lite-server": "^2.3.0",
+    "nodemon": "^1.12.1"
+  },
+  "scripts": {
+    "dev": "lite-server",
+    "build-css": "node-sass --inclide-path scss src/scss/style.scss src/css/style.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "author": "subindev",
+  "license": "ISC"
+}
