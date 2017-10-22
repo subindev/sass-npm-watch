@@ -1,4 +1,11 @@
+* {
+  all: unset; }
+
 body {
-  background-color: yellow; }
-  body h1 {
-    color: red; }
+  margin: 0;
+  padding: 0; }
+
+.page {
+  padding: 30px;
+  background: #eee;
+  color: #272727; }
